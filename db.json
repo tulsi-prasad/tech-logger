@@ -22,8 +22,11 @@
       "tech": "Sam Smith3"
     },
     {
-      "tech": "John Doe",
-      "id": 4
+      "id": 4,
+      "message": "Changed harddrive on workstation 004",
+      "attention": "true",
+      "date": "03-02-2022",
+      "tech": "Sam Smith4"
     }
   ],
   "techs": [
@@ -41,11 +44,6 @@
       "id": 3,
       "firstName": "Sam",
       "lastName": "Smith3"
-    },
-    {
-      "id": 4,
-      "firstName": "Sam",
-      "lastName": "Smith4"
     }
   ]
 }
