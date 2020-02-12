@@ -15,11 +15,11 @@
       "id": 6
     },
     {
-      "message": "I can appear on db.json instantly",
-      "attention": true,
+      "id": 7,
+      "message": "I can appear on db.json instantly by changing something",
+      "attention": false,
       "tech": "Sara Wilson",
-      "date": "2020-02-12T12:04:04.127Z",
-      "id": 7
+      "date": "2020-02-12T13:34:06.225Z"
     }
   ],
   "techs": [
