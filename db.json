@@ -1,32 +1,25 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Changed harddrive on workstation 001",
-      "attention": "false",
-      "date": "03-02-2019",
-      "tech": "Sam Smith1"
+      "message": "I am a new Log message",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2020-02-12T12:02:07.617Z",
+      "id": 5
     },
     {
-      "id": 2,
-      "message": "Changed harddrive on workstation 002",
-      "attention": "true",
-      "date": "03-02-2020",
-      "tech": "Sam Smith2"
+      "message": "I am the second new message",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2020-02-12T12:02:30.207Z",
+      "id": 6
     },
     {
-      "id": 3,
-      "message": "Changed harddrive on workstation 003",
-      "attention": "false",
-      "date": "03-02-2021",
-      "tech": "Sam Smith3"
-    },
-    {
-      "id": 4,
-      "message": "Changed harddrive on workstation 004",
-      "attention": "true",
-      "date": "03-02-2022",
-      "tech": "Sam Smith4"
+      "message": "I can appear on db.json instantly",
+      "attention": true,
+      "tech": "Sara Wilson",
+      "date": "2020-02-12T12:04:04.127Z",
+      "id": 7
     }
   ],
   "techs": [

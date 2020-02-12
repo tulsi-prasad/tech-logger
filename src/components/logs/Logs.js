@@ -30,11 +30,14 @@ const Logs = ({ log: { logs, loading }, getLogs }) => {
 };
 
 Logs.propTypes = {
-    log: PropTypes.object.isRequired
+    log: PropTypes.object.isRequired,
+    getLogs: PropTypes.func.isRequired
 };
 
 const mapStateToProps = state => ({
     log: state.log
 });
 
+// mapstatetoprops is used when we need to access state from within component
+// otherwise it stays null
 export default connect(mapStateToProps, { getLogs })(Logs);
